@@ -1,6 +1,4 @@
-Absolutely, here’s a detailed and polished `README.md` file for your project. You can copy this as-is into a `README.md` file or tweak it further if needed.
 
----
 
 ## 📰 News Aggregator with API, Web Scraping & GUI
 
@@ -28,11 +26,10 @@ This project is a **News Aggregator application** that fetches top headlines fro
 
 ### 📁 Project Structure
 
-| File                    | Purpose                                         |
-| ----------------------- | ----------------------------------------------- |
-| `main.py` (your script) | Main application with GUI, API, scraping, tests |
-| `news_cache.json`       | Cache file to store fetched articles            |
-| `README.md`             | This documentation file                         |
+| File              | Purpose                                                  |
+| ----------------- | -------------------------------------------------------- |
+| `NewsAPI.ipynb`   | Main notebook with GUI, API integration, scraping, tests |
+| `README.md`       | This documentation file                                  |
 
 ---
 
@@ -62,39 +59,13 @@ This project is a **News Aggregator application** that fetches top headlines fro
 
 ---
 
-### 🚀 How to Run
+### 🚀 How to Run (in Jupyter)
 
-#### 🛠 Requirements
+1. Launch Jupyter Notebook and open `NewsAPI.ipynb`.
+2. Run the notebook cells sequentially.
+3. The GUI window will open (Tkinter) — interact with it to fetch or visualize articles.
 
-Install required Python packages:
-
-```bash
-pip install requests beautifulsoup4 pandas matplotlib
-```
-
-#### ▶️ Running the App
-
-From your terminal or Python environment:
-
-```bash
-python main.py
-```
-
-> 🔹 This will launch a Tkinter window with category and article selection, buttons to fetch or visualize data.
-
-#### 🧪 Running Unit Tests
-
-Unit tests will automatically run at the bottom of the script (or you can isolate them):
-
-```bash
-python main.py
-```
-
-Or to isolate test execution:
-
-```bash
-python -m unittest main.py
-```
+> 💡 If you’re using **Jupyter in a headless environment** (e.g. cloud or server), GUI windows like Tkinter may **not work**. In that case, convert your logic to use IPython widgets or run locally.
 
 ---
 
