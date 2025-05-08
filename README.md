@@ -87,4 +87,3 @@ This project is a **News Aggregator application** that fetches top headlines fro
 
 ---
 
-Let me know if you'd like me to generate the README as a downloadable `.md` file too!
